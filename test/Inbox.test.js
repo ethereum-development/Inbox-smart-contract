@@ -11,7 +11,8 @@ const OPTIONS = {
     defaultBlock: "latest",
     transactionConfirmationBlocks: 1,
     transactionBlockTimeout: 5
-  };
+};
+
 const web3 = new Web3(ganache.provider(), null, OPTIONS);
 //mocha is a general case testing framework
 
