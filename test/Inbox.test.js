@@ -35,33 +35,3 @@ describe('Inbox', () => {
         console.log(inbox);
     });
 });
-
-
-
-
-// class Car {
-//     park() {
-//         return 'stopped';
-//     }
-
-//     drive() {
-//         return 'vroom';
-//     }
-// }
-
-// let car;//global car to avoid problems with scope
-
-// beforeEach(() => {// happens before every test 
-//     car = new Car();
-// });
-
-// describe('Car',() =>{
-//     it('can park',() => {
-//         assert.equal(car.park(), 'stopped');
-//     });
-
-//     it('can drive', () => {
-//         assert.equal(car.drive(),'vroom');
-//     });
-// });//'Car' is just to give a description of the class, 'can park' describes function, and 
-// // 'can drive' is the same.
